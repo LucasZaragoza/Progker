@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="mainPane" fx:id="mainPane" prefHeight="600.0" prefWidth="800.0" stylesheets="@style/stylePrimary.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.addfx.SixJoueursController">
+   <children>
+      <ImageView fx:id="flopc1" fitHeight="100.0" fitWidth="60.0" layoutX="220.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="flopc2" fitHeight="100.0" fitWidth="60.0" layoutX="290.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="flopc3" fitHeight="100.0" fitWidth="60.0" layoutX="360.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="turnc1" fitHeight="100.0" fitWidth="60.0" layoutX="440.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="riverc1" fitHeight="100.0" fitWidth="60.0" layoutX="520.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane fx:id="playerPane" layoutX="300.0" layoutY="400.0" prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane fx:id="villain1" layoutX="14.0" layoutY="300.0" prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane fx:id="villain2" layoutX="14.0" layoutY="81.0" prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane fx:id="villain3" layoutX="300.0" layoutY="5.0" prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane fx:id="villain4" layoutX="586.0" layoutY="88.0" prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane fx:id="villain5" layoutX="586.0" layoutY="300.0" prefHeight="200.0" prefWidth="200.0">
+      </AnchorPane>
+      <Button fx:id="startBut" layoutX="603.0" layoutY="531.0" mnemonicParsing="false" onAction="#debutTour" text="Start" />
+      <ImageView fx:id="jetonDealer" fitHeight="31.0" fitWidth="31.0" layoutX="295.0" layoutY="561.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="boutonDealer" layoutX="674.0" layoutY="531.0" mnemonicParsing="false" onAction="#moveDeal" text="Dealer" />
+   </children>
+</AnchorPane>
